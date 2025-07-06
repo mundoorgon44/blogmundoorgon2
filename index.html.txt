@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Aprende sobre orgonitas, energía positiva y bienestar. Visita MundoOrgon.com."/>
+  <title>Blog MundoOrgon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #f9fafb;
+      color: #111827;
+    }
+    header {
+      background: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #7c3aed;
+    }
+    nav a {
+      margin-left: 1rem;
+      text-decoration: none;
+      color: #374151;
+      font-weight: 500;
+    }
+    .hero {
+      background: linear-gradient(to right, #7c3aed, #3730a3);
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem;
+      position: relative;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin: 1rem 0 2rem;
+    }
+    .btn {
+      background: #fbbf24;
+      color: #3b0764;
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #facc15;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 1.5rem;
+    }
+    .card-body h3 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .card-body p {
+      font-size: 0.95rem;
+      color: #4b5563;
+      margin-bottom: 1rem;
+    }
+    .category {
+      background: #7c3aed;
+      color: white;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    footer {
+      background: #111827;
+      color: #9ca3af;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.875rem;
+    }
+    @media (max-width: 640px) {
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Blog Mundo<span style="color:#7c3aed">Orgon</span></div>
+    <nav>
+      <a href="#categorias">Categorías</a>
+      <a href="#articulos">Artículos</a>
+      <a href=" https://mundoorgon.com " target="_blank">Tienda</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Bienvenido al Blog de MundoOrgon</h1>
+    <p>Aprende sobre orgonitas, energía positiva y cómo mejorar tu bienestar.</p>
+    <a href="https://mundoorgon.com " target="_blank" class="btn">Conoce nuestras orgonitas</a>
+  </section>
+
+  <section id="articulos" class="py-12">
+    <div class="container">
+      <h2 class="text-3xl font-bold text-center mb-8">Últimos Artículos</h2>
+      <div class="cards">
+
+        <div class="card">
+          <img src="https://mundoorgon.com/wp-content/uploads/2023/08/orgonita-piramides.jpg " alt="¿Qué son las orgonitas?">
+          <div class="card-body">
+            <time>2024-10-15</time>
+            <h3>¿Qué son las orgonitas y cómo funcionan?</h3>
+            <p>Descubre el poder del equilibrio energético con las orgonitas. En este artículo exploramos su origen, composición y beneficios para tu bienestar.</p>
+            <span class="category">ciencia</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://mundoorgon.com/wp-content/uploads/2023/08/orgonita-en-casa.jpg " alt="Beneficios de usar orgonitas">
+          <div class="card-body">
+            <time>2024-10-12</time>
+            <h3>Beneficios de usar orgonitas en tu hogar</h3>
+            <p>Mejora la calidad energética de tu espacio vital con estas prácticas sugerencias sobre cómo colocar tus orgonitas estratégicamente.</p>
+            <span class="category">beneficios</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://mundoorgon.com/wp-content/uploads/2023/08/orgonita-y-salud.jpg " alt="Orgonitas y salud">
+          <div class="card-body">
+            <time>2024-10-08</time>
+            <h3>Orgonitas y la eliminación de radiaciones electromagnéticas</h3>
+            <p>Conoce cómo las orgonitas pueden ayudarte a neutralizar los efectos negativos de las ondas electromagnéticas en tu entorno.</p>
+            <span class="category">salud</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://mundoorgon.com/wp-content/uploads/2023/08/orgonita-eleccion.jpg " alt="Cómo elegir tu orgonita">
+          <div class="card-body">
+            <time>2024-10-05</time>
+            <h3>Cómo elegir la mejor orgonita según tus necesidades</h3>
+            <p>Guía completa para seleccionar la orgonita perfecta dependiendo de tus objetivos personales o espirituales.</p>
+            <span class="category">guia</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://mundoorgon.com/wp-content/uploads/2023/08/orgonita-cristales.jpg " alt="Orgonitas y cristales">
+          <div class="card-body">
+            <time>2024-10-01</time>
+            <h3>Las orgonitas y su conexión con los cristales</h3>
+            <p>Exploramos cómo la combinación de resina, metal, cristales y energía orgónica puede potenciar tus prácticas energéticas.</p>
+            <span class="category">cristales</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://mundoorgon.com/wp-content/uploads/2023/08/orgon-historia.jpg " alt="Historia de la energía Orgón">
+          <div class="card-body">
+            <time>2024-09-28</time>
+            <h3>La historia detrás de la energía Orgón</h3>
+            <p>Un recorrido por la fascinante historia del descubrimiento de la energía Orgón por Wilhelm Reich y su evolución hasta hoy.</p>
+            <span class="category">historia</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 MundoOrgon. Todos los derechos reservados.<br/>
+    <a href="#" style="color: #d1d5db; text-decoration: underline;">Política de privacidad</a> · 
+    <a href="#" style="color: #d1d5db; text-decoration: underline;">Términos y condiciones</a>
+  </footer>
+
+</body>
+</html>
