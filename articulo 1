@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>¿Qué son las orgonitas? - Blog MundoOrgon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Blog Mundo<span>Orgon</span></div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href=" https://mundoorgon.com " target="_blank">Tienda</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2>¿Qué son las orgonitas y cómo funcionan?</h2>
+    <time>2025-04-06</time>
+    <img src="images/articulo1.jpg" alt="Orgonita" class="post-image">
+    
+    <p>Las orgonitas son mezclas de resina epóxica, metal, cristales y energía orgónica. Este material fue descubierto por Wilhelm Reich y ayuda a neutralizar la energía negativa del entorno.</p>
+    
+    <p>Gracias a su combinación única, las orgonitas convierten la energía estancada o negativa en energía positiva y equilibrada, ideal para espacios cargados de tecnología o personas sensibles.</p>
+
+    <a href="index.html" class="btn-volver">← Volver a artículos</a>
+  </section>
+
+  <footer>
+    &copy; 2025 MundoOrgon. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
